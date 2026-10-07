@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RNZ | Software Engineer dan Edukator JavaScript</title>
+<meta name="description" content="Blog, kursus, dan podcast dari RNZ, software engineer dan edukator yang membantu developer membangun aplikasi JavaScript, React, dan web modern yang mudah dirawat.">
+<meta name="author" content="RNZ">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="theme-color" content="#14213D">
+<meta name="geo.region" content="ID">
+<link rel="canonical" href="https://www.example.com/">
+<link rel="alternate" hreflang="id" href="https://www.example.com/">
+<link rel="alternate" hreflang="x-default" href="https://www.example.com/">
+<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/images/hero.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+
+<!-- Open Graph / Twitter -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="RNZ">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="RNZ | Software Engineer dan Edukator JavaScript">
+<meta property="og:description" content="Blog, kursus, dan podcast untuk developer yang ingin membangun software berkualitas.">
+<meta property="og:url" content="https://www.example.com/">
+<meta property="og:image" content="https://www.example.com/assets/images/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="RNZ, software engineer dan edukator JavaScript">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RNZ | Software Engineer dan Edukator JavaScript">
+<meta name="twitter:description" content="Blog, kursus, dan podcast untuk developer yang ingin membangun software berkualitas.">
+<meta name="twitter:image" content="https://www.example.com/assets/images/og-image.png">
+
+<!-- SEM: aktifkan Google Tag Manager dengan mengganti GTM-XXXXXXX
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s);j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+-->
+
+<!-- Structured data: SEO, GEO, AEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.example.com/#website",
+      "url": "https://www.example.com/",
+      "name": "RNZ",
+      "inLanguage": "id-ID",
+      "publisher": { "@id": "https://www.example.com/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.example.com/#person",
+      "name": "RNZ",
+      "jobTitle": "Software Engineer dan Edukator",
+      "url": "https://www.example.com/",
+      "image": "https://www.example.com/assets/images/img1.png",
+      "description": "Software engineer dan edukator yang menulis blog, mengajar kursus, dan membangun komunitas untuk developer JavaScript.",
+      "knowsAbout": ["JavaScript", "React", "Testing JavaScript", "Pengembangan web", "Rekayasa perangkat lunak"],
+      "sameAs": ["https://github.com/username", "https://www.youtube.com/@username", "https://www.linkedin.com/in/username"]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.example.com/#webpage",
+      "url": "https://www.example.com/",
+      "name": "RNZ | Software Engineer dan Edukator JavaScript",
+      "isPartOf": { "@id": "https://www.example.com/#website" },
+      "about": { "@id": "https://www.example.com/#person" },
+      "primaryImageOfPage": "https://www.example.com/assets/images/og-image.png",
+      "inLanguage": "id-ID",
+      "dateModified": "2026-10-07",
+      "speakable": { "@type": "SpeakableSpecification", "cssSelector": ["h1", ".answer"] }
+    },
+    {
+      "@type": "ItemList",
+      "name": "Kursus dari RNZ",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "Course", "name": "Product Engineer Pro", "description": "Bangun produk lengkap dari ide sampai rilis.", "provider": { "@id": "https://www.example.com/#person" } } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "Course", "name": "AI untuk Developer", "description": "Bangun aplikasi bertenaga AI yang bisa dipercaya.", "provider": { "@id": "https://www.example.com/#person" } } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "Course", "name": "Web Modern", "description": "Pelajari fondasi web modern: routing, data, dan performa.", "provider": { "@id": "https://www.example.com/#person" } } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "Course", "name": "React Praktis", "description": "Panduan React dari dasar sampai pola lanjutan.", "provider": { "@id": "https://www.example.com/#person" } } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "Course", "name": "Testing JavaScript", "description": "Tulis tes yang efisien dan mudah dirawat.", "provider": { "@id": "https://www.example.com/#person" } } }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Siapa RNZ?", "acceptedAnswer": { "@type": "Answer", "text": "RNZ adalah software engineer dan edukator yang menulis blog, mengajar kursus, dan membangun komunitas agar developer bisa membuat software yang mudah dirawat." } },
+        { "@type": "Question", "name": "Dari mana sebaiknya mulai belajar JavaScript?", "acceptedAnswer": { "@type": "Answer", "text": "Mulai dari artikel Peta belajar JavaScript di blog untuk memahami urutan topik, lalu lanjut ke kursus Web Modern atau React Praktis untuk latihan terstruktur." } },
+        { "@type": "Question", "name": "Apakah blog dan podcast gratis?", "acceptedAnswer": { "@type": "Answer", "text": "Ya. Semua artikel blog dan episode podcast gratis. Kursus berbayar tersedia bagi yang ingin belajar secara terstruktur." } },
+        { "@type": "Question", "name": "Bagaimana cara bergabung dengan komunitas Discord?", "acceptedAnswer": { "@type": "Answer", "text": "Klik tombol Gabung Discord di bagian Komunitas, lalu ikuti aturan komunitas. Keanggotaan gratis." } }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#utama">Lewati ke konten utama</a>
+
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="/" aria-label="RNZ, beranda">
+      <img src="assets/images/img1.png" width="32" height="32" alt="">
+      <span>RNZ</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="nav" aria-label="Navigasi utama">
+      <a href="#blog">Blog</a>
+      <a href="#kursus">Kursus</a>
+      <a href="#komunitas">Komunitas</a>
+      <a href="#faq">FAQ</a>
+      <a href="#tentang">Tentang</a>
+    </nav>
+  </div>
+</header>
+
+<main id="utama">
+  <section class="hero" aria-labelledby="judul-hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1 id="judul-hero">Membantu orang membuat dunia lebih baik lewat software berkualitas.</h1>
+        <p class="lead">Artikel, kursus, dan podcast tentang JavaScript, React, dan rekayasa perangkat lunak untuk developer yang ingin karyanya awet dan mudah dirawat.</p>
+      </div>
+      <img class="hero-art" src="assets/images/hero.svg" width="520" height="480" alt="Ilustrasi bentuk geometris melayang dengan simbol kode di tengahnya" fetchpriority="high">
+    </div>
+  </section>
+
+  <section id="tentang" class="intro" aria-labelledby="judul-tentang">
+    <div class="wrap intro-grid">
+      <img class="avatar" src="assets/images/img1.png" width="320" height="320" alt="Foto profil RNZ" loading="lazy">
+      <div>
+        <h2 id="judul-tentang">Tentang RNZ</h2>
+        <p class="answer">RNZ adalah software engineer dan edukator JavaScript. Ia menulis blog teknis, mengajar kursus, dan mengelola komunitas developer berbahasa Indonesia.</p>
+        <p>Di luar layar, ia suka mendaki gunung dan berlari lintas alam. Kebiasaan itu mengajarinya satu hal yang ia bawa ke dunia kode: kemajuan datang dari langkah kecil yang konsisten.</p>
+        <dl class="facts">
+          <div><dt>Profesi</dt><dd>Software engineer dan edukator</dd></div>
+          <div><dt>Fokus</dt><dd>JavaScript, React, testing, web modern</dd></div>
+          <div><dt>Konten</dt><dd>Blog, kursus, podcast, komunitas</dd></div>
+          <div><dt>Bahasa</dt><dd>Indonesia dan Inggris</dd></div>
+        </dl>
+        <a class="textlink" href="about/" data-track="tentang_selengkapnya">Pelajari lebih lanjut tentang Rasya</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="paths" aria-labelledby="judul-jalur">
+    <div class="wrap">
+      <div class="paths-box">
+        <h2 id="judul-jalur">Kesulitan mengikuti perkembangan JavaScript?</h2>
+        <div class="paths-grid">
+          <ul class="biglinks">
+            <li><a href="#blog" data-track="jalur_blog">blog</a></li>
+            <li><a href="#kursus" data-track="jalur_kursus">kursus</a></li>
+            <li><a href="podcast/" data-track="jalur_podcast">podcast</a></li>
+          </ul>
+          <div>
+            <p class="answer">Kamu berada di tempat yang tepat. Situs ini menyediakan semua yang kamu perlukan untuk membangun aplikasi JavaScript, mulai dari panduan gratis sampai pelatihan berbayar.</p>
+            <h3>Blog edukasi</h3>
+            <p>Lebih dari 100 artikel tentang JavaScript, React, testing, dan karier developer. Setiap artikel ditulis ringkas dan disertai contoh kode.</p>
+            <a class="textlink" href="#blog" data-track="jalur_mulai_membaca">Mulai membaca blog</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="section" aria-labelledby="judul-blog">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2 id="judul-blog">Artikel pilihan</h2>
+          <p class="sub">Dipilih untuk membantu kamu naik level minggu ini.</p>
+        </div>
+        <a class="textlink" href="blog/" data-track="blog_lihat_semua">Lihat semua artikel</a>
+      </div>
+      <div class="posts">
+        <article class="post">
+          <a href="blog/react-lebih-cepat/" data-track="blog_react_lebih_cepat">
+            <img src="assets/images/blog-1.svg" width="400" height="500" alt="Ilustrasi abstrak garis gelombang berwarna biru" loading="lazy">
+            <p class="meta"><time datetime="2026-09-12">12 September 2026</time>, 9 menit baca</p>
+            <h3>Membuat komponen React lebih cepat tanpa mengorbankan keterbacaan</h3>
+          </a>
+        </article>
+        <article class="post">
+          <a href="blog/kesalahan-umum-testing/" data-track="blog_kesalahan_testing">
+            <img src="assets/images/blog-2.svg" width="400" height="500" alt="Ilustrasi abstrak lingkaran konsentris berwarna kuning" loading="lazy">
+            <p class="meta"><time datetime="2026-08-03">3 Agustus 2026</time>, 8 menit baca</p>
+            <h3>Kesalahan umum saat menulis tes untuk aplikasi web</h3>
+          </a>
+        </article>
+        <article class="post">
+          <a href="blog/peta-belajar-javascript/" data-track="blog_peta_belajar">
+            <img src="assets/images/blog-3.svg" width="400" height="500" alt="Ilustrasi abstrak titik-titik berwarna hijau mint" loading="lazy">
+            <p class="meta"><time datetime="2026-06-18">18 Juni 2026</time>, 11 menit baca</p>
+            <h3>Peta belajar JavaScript 2026: urutan yang masuk akal</h3>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="kursus" class="section section-alt" aria-labelledby="judul-kursus">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <h2 id="judul-kursus">Kursus</h2>
+          <p class="sub">Mulai dari program unggulan, lalu lanjutkan ke kursus lainnya.</p>
+        </div>
+        <a class="textlink" href="kursus/" data-track="kursus_lihat_semua">Lihat semua kursus</a>
+      </div>
+      <article class="course course-main">
+        <img src="assets/images/course-1.svg" width="160" height="160" alt="Ikon roket untuk kursus Product Engineer Pro" loading="lazy">
+        <div>
+          <h3>Product Engineer Pro</h3>
+          <p>Bangun produk lengkap dari ide sampai rilis: arsitektur, database, deployment, dan kolaborasi tim.</p>
+          <a class="btn btn-solid" href="kursus/product-engineer-pro/" data-track="kursus_product_engineer">Lihat kursus</a>
+        </div>
+      </article>
+      <div class="courses">
+        <article class="course">
+          <img src="assets/images/course-2.svg" width="120" height="120" alt="Ikon petir untuk kursus AI untuk Developer" loading="lazy">
+          <h3>AI untuk Developer</h3>
+          <p>Bangun aplikasi bertenaga AI yang bisa dipercaya.</p>
+          <a class="textlink" href="kursus/ai-untuk-developer/" data-track="kursus_ai">Lihat kursus</a>
+        </article>
+        <article class="course">
+          <img src="assets/images/course-3.svg" width="120" height="120" alt="Ikon kompas untuk kursus Web Modern" loading="lazy">
+          <h3>Web Modern</h3>
+          <p>Pelajari fondasi web modern: routing, data, dan performa.</p>
+          <a class="textlink" href="kursus/web-modern/" data-track="kursus_web_modern">Lihat kursus</a>
+        </article>
+        <article class="course">
+          <img src="assets/images/course-4.svg" width="120" height="120" alt="Ikon atom untuk kursus React Praktis" loading="lazy">
+          <h3>React Praktis</h3>
+          <p>Panduan React dari dasar sampai pola lanjutan.</p>
+          <a class="textlink" href="kursus/react-praktis/" data-track="kursus_react">Lihat kursus</a>
+        </article>
+        <article class="course">
+          <img src="assets/images/course-5.svg" width="120" height="120" alt="Ikon piala untuk kursus Testing JavaScript" loading="lazy">
+          <h3>Testing JavaScript</h3>
+          <p>Tulis tes yang efisien dan mudah dirawat.</p>
+          <a class="textlink" href="kursus/testing-javascript/" data-track="kursus_testing">Lihat kursus</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="komunitas" class="section" aria-labelledby="judul-komunitas">
+    <div class="wrap community">
+      <div>
+        <h2 id="judul-komunitas">Bertemu developer yang punya tujuan sama</h2>
+        <p class="answer">Bergabunglah dengan komunitas Discord gratis untuk bertanya, berbagi proyek, dan belajar bersama developer lain.</p>
+        <a class="btn btn-solid" href="https://discord.gg/example" rel="noopener" data-track="komunitas_gabung_discord">Gabung Discord</a>
+      </div>
+      <div class="chat" aria-hidden="true">
+        <p class="bubble">Ada yang mau pair programming malam ini?</p>
+        <p class="bubble bubble-me">Saya bisa! Mulai jam 8, ya.</p>
+        <p class="bubble">Ada yang tahu cara debug error hydration ini?</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="section section-alt" aria-labelledby="judul-faq">
+    <div class="wrap narrow">
+      <h2 id="judul-faq">Pertanyaan yang sering diajukan</h2>
+      <details open>
+        <summary><h3>Siapa RNZ?</h3></summary>
+        <p class="answer">RNZ adalah software engineer dan edukator yang menulis blog, mengajar kursus, dan membangun komunitas agar developer bisa membuat software yang mudah dirawat.</p>
+      </details>
+      <details>
+        <summary><h3>Dari mana sebaiknya mulai belajar JavaScript?</h3></summary>
+        <p class="answer">Mulai dari artikel Peta belajar JavaScript di blog untuk memahami urutan topik, lalu lanjut ke kursus Web Modern atau React Praktis untuk latihan terstruktur.</p>
+      </details>
+      <details>
+        <summary><h3>Apakah blog dan podcast gratis?</h3></summary>
+        <p class="answer">Ya. Semua artikel blog dan episode podcast gratis. Kursus berbayar tersedia bagi yang ingin belajar secara terstruktur.</p>
+      </details>
+      <details>
+        <summary><h3>Bagaimana cara bergabung dengan komunitas Discord?</h3></summary>
+        <p class="answer">Klik tombol Gabung Discord di bagian Komunitas, lalu ikuti aturan komunitas. Keanggotaan gratis.</p>
+      </details>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-brand">RNZ</p>
+      <p>Edukator penuh waktu yang ingin dunia menjadi tempat yang lebih baik lewat software.</p>
+    </div>
+    <nav aria-label="Kontak dan media sosial">
+      <h2>Kontak</h2>
+      <ul>
+        <li><a href="mailto:rasyanabilzaidans@gmail.com">rasyanabilzaidans@gmail.com</a></li>
+        <li><a href="https://github.com/username" rel="me noopener">GitHub</a></li>
+        <li><a href="https://www.youtube.com/@username" rel="me noopener">YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/username" rel="me noopener">LinkedIn</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Peta situs">
+      <h2>Peta situs</h2>
+      <ul>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#kursus">Kursus</a></li>
+        <li><a href="podcast/">Podcast</a></li>
+        <li><a href="#komunitas">Komunitas</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="privacy/">Kebijakan privasi</a></li>
+      </ul>
+    </nav>
+    <div>
+      <h2>Tetap terhubung</h2>
+      <form id="newsletter-form" novalidate>
+        <label for="email">Alamat email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="kamu@email.com" required>
+        <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign">
+        <button class="btn btn-light" type="submit">Berlangganan</button>
+        <p id="form-status" class="status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+  <div class="wrap legal"><p>&copy; <span id="year">2026</span> RNZ. Semua hak dilindungi.</p></div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
