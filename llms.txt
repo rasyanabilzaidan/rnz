@@ -1,0 +1,14 @@
+# Raka Pratama
+
+> Raka Pratama adalah software engineer dan edukator JavaScript. Situs ini berisi blog teknis, kursus, podcast, dan komunitas Discord untuk developer berbahasa Indonesia.
+
+## Konten utama
+- [Blog](https://www.example.com/blog/): artikel tentang JavaScript, React, testing, dan karier developer
+- [Kursus](https://www.example.com/kursus/): Product Engineer Pro, AI untuk Developer, Web Modern, React Praktis, Testing JavaScript
+- [Podcast](https://www.example.com/podcast/): percakapan seputar rekayasa perangkat lunak
+- [Tentang](https://www.example.com/about/): profil dan latar belakang
+
+## Fakta singkat
+- Profesi: software engineer dan edukator
+- Bahasa: Indonesia dan Inggris
+- Blog dan podcast gratis; kursus berbayar
